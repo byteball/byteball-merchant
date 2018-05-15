@@ -24,5 +24,11 @@
   "dependencies": {
     "bitcore-lib": "^0.13.14",
     "byteballcore": "git+https://github.com/byteball/byteballcore.git"
+  },
+  "homepage": "https://github.com/byteball/byteball-merchant#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node merchant.js > log &"
   }
 }
